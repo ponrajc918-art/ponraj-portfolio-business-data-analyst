@@ -12,9 +12,9 @@ import { PERSONAL } from "@/lib/data";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 const TITLE_WORDS = [
-  "AI / ML Engineer",
-  "website developer",
-  "Data Analytics Developer",
+  "Data Analyst",
+  "Business Data Analyst",
+  "Data Scientist",
   "Python Developer",
 ] as const;
 
