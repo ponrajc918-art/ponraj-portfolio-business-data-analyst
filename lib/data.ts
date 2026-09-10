@@ -5,10 +5,10 @@
 export const PERSONAL = {
   name: "Ponraj C",
   titles: [
-  "AI & Machine Learning Engineer",
+  "Data Analyst",
+  "Business Data Analyst",
   "Data Scientist",
-  "Python Developer",
-  "Software Engineer"
+  "Python Developer"
   ],
   location: "Tamil Nadu, India",
   email: "chandruponraj06@gmail.com",
@@ -24,13 +24,13 @@ export const PERSONAL = {
 
 export const ABOUT = {
   summary:
-    "Motivated Artificial Intelligence and Machine Learning student with strong skills in data analytics, machine learning, Python, SQL, and software development. Experienced in building end-to-end AI-driven solutions — including financial prediction systems and student performance analytics — using Scikit-learn and Flask. Skilled in problem-solving, data visualization, and predictive modeling, with a strong passion for developing real-world business intelligence solutions.",
+  "Motivated Artificial Intelligence and Machine Learning student with strong skills in data analytics, Python, SQL, machine learning, and data visualization. Skilled in data preprocessing, exploratory data analysis, feature engineering, predictive modeling, and extracting meaningful insights from datasets. Built practical projects including financial analysis and student performance prediction using Python and Scikit-learn. Interested in applying data-driven approaches to solve real-world business problems.",
   focusAreas: [
-    "Artificial Intelligence & Machine Learning",
-    "Data Analytics & Business Intelligence",
-    "Predictive Modeling",
-    "Python & Backend Development",
-  ],
+   "Data Analytics & Business Intelligence",
+   "Python & SQL",
+   "Data Visualization & EDA",
+   "Machine Learning & Predictive Modeling",
+   ],
   education: {
     degree: "Bachelor of Technology in Artificial Intelligence & Machine Learning",
     school: "IFET College of Engineering",
@@ -60,28 +60,56 @@ export type SkillCategory = {
 export const SKILLS: SkillCategory[] = [
   {
     title: "Programming",
-    description: "Core languages",
+    description: "Core programming & querying",
     items: ["Python", "SQL"],
   },
   {
-    title: "Data Analytics & Visualization",
-    description: "Turning raw data into insight",
-    items: ["Pandas", "NumPy", "Excel", "EDA", "Matplotlib"],
+    title: "Data Analytics",
+    description: "Analyzing and preparing data",
+    items: [
+      "Pandas",
+      "NumPy",
+      "Exploratory Data Analysis",
+      "Data Preprocessing",
+      "Feature Engineering",
+    ],
+  },
+  {
+    title: "Data Visualization",
+    description: "Communicating data insights",
+    items: ["Matplotlib", "Data Visualization"],
   },
   {
     title: "Machine Learning",
-    description: "Modeling & prediction",
-    items: ["Scikit-learn", "Regression Models", "Classification Models", "Predictive Analytics"],
+    description: "Prediction & analytical modeling",
+    items: [
+      "Scikit-learn",
+      "Regression",
+      "Classification",
+      "Random Forest",
+      "XGBoost",
+      "Model Evaluation",
+      "Predictive Analytics",
+    ],
   },
   {
     title: "Backend Development",
-    description: "Shipping it as a service",
-    items: ["Flask", "FastAPI", "REST APIs"],
+    description: "Building data-driven APIs",
+    items: ["FastAPI", "REST APIs", "PostgreSQL"],
   },
   {
-    title: "Data Structures & Algorithms",
-    description: "Problem-solving foundations",
-    items: ["Arrays", "Linked Lists", "Stack", "Queue", "HashMap", "Recursion", "Sorting", "Searching"],
+    title: "Problem Solving",
+    description: "Data structures & algorithms",
+    items: [
+      "Arrays",
+      "Linked Lists",
+      "Stack",
+      "Queue",
+      "HashMap",
+      "Recursion",
+      "Sorting",
+      "Searching",
+    ],
   },
 ];
 
